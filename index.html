@@ -12,6 +12,12 @@
     integrity="sha512-E+53kXnJyuZFSz75xSmTfCpUNj3gp9Bd80TeQQMTPJTVWDRHPOpEYczGwWtsZXvaiz27cqvhdH8U+g/NMYua3A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- FontAweSome -->
+  <script src="https://use.fontawesome.com/75459666dd.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+    integrity="sha512-E+53kXnJyuZFSz75xSmTfCpUNj3gp9Bd80TeQQMTPJTVWDRHPOpEYczGwWtsZXvaiz27cqvhdH8U+g/NMYua3A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,33 +27,65 @@
 </head>
 
 <body>
-  <header>
-
-    <div id="high_header">
-      <div class="container-fluid">
-        <div class="row justify-content-end bg_black py-2">
-          <img class="" src="img/sony_logo.svg" alt="Sony Logo">
-        </div>
+  <div id="high_header">
+    <div class="container-fluid">
+      <div class="row justify-content-end bg_black">
+        <img class="col-2 my-2" src="img/sony_logo.svg" alt="Sony Logo">
       </div>
     </div>
+  </div>
 
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar scroll</a>
+        <img class="navbar-brand" src="img/play_logo.svg" alt="PS logo">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Giochi
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" aria-current="page" href="#">Hardware
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Servizi
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Novità
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Fai acquisti
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Supporto
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Link
               </a>
@@ -59,20 +97,53 @@
                 </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link disabled">Link</a>
+            </li> -->
+          </ul>
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">My Playstation
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-success border border-dark mx-2" type="submit">Accedi</button>
           </form>
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa-solid fa-magnifying-glass fs-5 ms-1"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+
       </div>
     </nav>
   </header>
-  <section>
+
+  <section id="jumbo_tron">
+    <div class="container container-sm container-md container-lg">
+      <div class="row section_1">
+
+        <img class="col-8 px-0" src="img/returnal-hero-banner-logo.png" alt="Returnal Logo">
+
+        <h2 class="col-8 text-light">Rompi il cerchio</h2>
+
+        <p class="col-12 text-light">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita
+          in questo esplosivo thriller fantasscientifico, disponibile in esclusiva su PS5.
+        </p>
+
+        <button class="col-3 text-light">
+          Acquista ora
+        </button>
+
+      </div>
+    </div>
+
 
   </section>
 

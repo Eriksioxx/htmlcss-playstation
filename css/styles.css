@@ -1,9 +1,9 @@
 root: {
 }
 
-[class*="col"] {
+/* [class*="col"] {
   border: 1px solid red;
-}
+} */
 
 /* Utilities */
 .bg_black {
@@ -14,7 +14,35 @@ background-color: black;
 
 /* HEADER */
 #high_header img {
-height: 15px;
+width: 100px;
 }
 
+header li a > i {
+  font-size: 13px;
+  color: #999999;
+}
+
+header .btn-outline-success {
+  background-color: #363636;
+  color: white;
+  border-radius: 20px;
+
+}
 /* / HEADER */
+
+/* MAIN */
+#jumbo_tron {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+#jumbo_tron .section_1 {
+  padding-top: 300px;
+}
+
+#jumbo_tron button {
+  background-color: #cd3d0f;
+}
+/* / MAIN */
