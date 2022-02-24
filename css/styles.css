@@ -1,5 +1,20 @@
+root: {
+}
+
 [class*="col"] {
   border: 1px solid red;
 }
 
-.modifcheprova push;
+/* Utilities */
+.bg_black {
+background-color: black;
+}
+
+/* content */
+
+/* HEADER */
+#high_header img {
+height: 15px;
+}
+
+/* / HEADER */
