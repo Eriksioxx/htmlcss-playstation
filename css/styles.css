@@ -35,6 +35,7 @@ header .btn-outline-success {
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   
 }
 
@@ -51,10 +52,13 @@ header .btn-outline-success {
   font-size: 40px;
 }
 
-#section-1 img {
+#section-2 img {
   border-radius: 15px;
 }
 
+#section-3 h6 {
+  color: #117bd1;
+}
 
 /* / MAIN */
 
