@@ -1,6 +1,3 @@
-root: {
-}
-
 /* [class*="col"] {
   border: 1px solid red;
 } */
@@ -8,6 +5,11 @@ root: {
 /* Utilities */
 .bg_black {
 background-color: black;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 /* content */
@@ -109,4 +111,33 @@ header .btn-outline-success {
 
 #section-4 h1 {
   font-size: 40px;
+}
+
+#section-5 {
+  background-color: #1f1f1f;
+}
+
+#section-5 img {
+  border-radius: 15px;
+}
+
+#section-6 h1 {
+  font-size: 40px;
+}
+
+#section-6 p {
+  font-size: 18px;
+}
+
+#section-6 span {
+  font-size: 25px;
+  vertical-align: top;
+}
+
+#section-6 button {
+  background-color: #2d64e6;
+  font-size: 18px;
+  border: none;
+
+  font-size: 14px;
 }
