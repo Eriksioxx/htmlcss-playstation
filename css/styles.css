@@ -50,4 +50,14 @@ header .btn-outline-success {
 #jumbo_tron h1 {
   font-size: 40px;
 }
+
+#section-1 img {
+  border-radius: 15px;
+}
+
+
 /* / MAIN */
+
+@media screen and (max-width: 576px) {
+  
+}
