@@ -12,6 +12,12 @@ background-color: black;
 
 /* content */
 
+/* / Media Query */
+
+@media screen and (max-width: 576px) {
+  
+}
+
 /* HEADER */
 #high_header img {
 width: 100px;
@@ -34,9 +40,7 @@ header .btn-outline-success {
 #jumbo_tron {
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-size: cover;  
 }
 
 #jumbo_tron .section_1 {
@@ -60,8 +64,18 @@ header .btn-outline-success {
   color: #117bd1;
 }
 
-/* / MAIN */
+#section-3 h1 {
+  font-size: 40px;
+}
 
-@media screen and (max-width: 576px) {
-  
+#section-3 p {
+  font-size: 17px;
+}
+
+#section-3 button {
+  background-color: #2d64e6;
+  font-size: 18px;
+  border: none;
+
+  font-size: 14px;
 }
