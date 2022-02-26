@@ -101,9 +101,12 @@ header .btn-outline-success {
 }
 
 #section-4 {
+  background-color: #afafaf;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
   background-size: cover;  
+
+  background-blend-mode: multiply;
 }
 
 #section-4 button {
@@ -187,4 +190,16 @@ header .btn-outline-success {
 
 #section-10 h1 {
   font-size: 33px;
+}
+
+footer {
+  background-color: #00439c;
+}
+
+footer li {
+  font-size: 13px;
+}
+
+footer p {
+  font-size: 14px;
 }
