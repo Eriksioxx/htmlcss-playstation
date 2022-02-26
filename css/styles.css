@@ -196,10 +196,11 @@ footer {
   background-color: #00439c;
 }
 
-footer li {
-  font-size: 13px;
-}
-
+footer li,
 footer p {
   font-size: 14px;
+}
+
+footer li {
+  padding: 3px 0;
 }
