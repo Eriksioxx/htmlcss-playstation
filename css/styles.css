@@ -17,18 +17,58 @@ body {
 /* content */
 
 /* / Media Query */
-
 @media screen and (max-width: 576px) {
-  
+}
+
+@media screen and (min-width: 768px) {
+  #section-3 .row:first-child {
+    margin-bottom: 3rem;
+  }
+  #section-3 .row:nth-child(2) {
+    margin-bottom: 4rem;
+  }
+  #section-3 .row:last-child p {
+    font-size: 14.5px;
+    text-align: center;
+  }
+  #section-3 .row:last-child img {
+    transform: scale(0.7);
+  }
+
+  #section-6 .row:last-child p {
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
   #section-3 .row:nth-child(2)>div:first-child {
     margin-top: 80px;
   }
+  #section-3 .row:last-child  {
+    filter: opacity(0.8) !important;
+  }
+  #section-3 .row:last-child img {
+    transform: scale(0.7);
+  }
+
+  #section-5 h1 {
+    font-size: 30px;
+  }
+  #section-5 h3 {
+    font-size: 25px;
+  }
+
   }
 
 @media screen and (min-width: 1200px) {
+#jumbo_tron p {
+  font-size: 15px;
+}
+#section-3 .row:nth-child(2) {
+  margin-bottom: 0rem;
+}
+
 #section-3 .row:nth-child(2)>div:first-child {
   margin-top: 130px;
 }
@@ -60,12 +100,13 @@ header .btn-outline-success {
 }
 
 #jumbo_tron .section_1 {
-  padding-top: 200px;
+  padding-top: 230px;
 }
 
 #jumbo_tron button {
   background-color: #cd3d0f;
   border: 1px solid #cd3d0f;
+  font-size: 15px;
 }
 
 #jumbo_tron h1 {
@@ -85,7 +126,7 @@ header .btn-outline-success {
 }
 
 #section-3 p {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 #section-3 button {
@@ -131,7 +172,7 @@ header .btn-outline-success {
 }
 
 #section-6 p {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 #section-6 span {
@@ -158,10 +199,9 @@ header .btn-outline-success {
 #section-7 button {
   background-color: #d9dadc;
   color: #2d64e6;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
 
-  font-size: 14px;
 }
 
 #section-8 h1 {
@@ -169,7 +209,7 @@ header .btn-outline-success {
 }
 
 #section-8 p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 #section-9 {
