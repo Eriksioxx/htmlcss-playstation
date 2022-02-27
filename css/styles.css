@@ -14,7 +14,10 @@ body {
   line-height: 23px;
 }
 
-/* content */
+/* Interaction */
+header .nav-item:hover {
+display: inline-block !important;
+}
 
 /* / Media Query */
 @media screen and (max-width: 576px) {
@@ -90,6 +93,24 @@ header .btn-outline-success {
   border-radius: 20px;
 
 }
+
+header ul .dropdown-menu {
+border: none;
+}
+
+header .arrow-down,
+header .arrow-hover {
+  width: 10px;
+}
+
+header .nav-link:hover .arrow-hover{
+  display: inline-block!important;
+}
+header .nav-link:hover .arrow-down{
+  display: none!important;
+}
+
+
 /* / HEADER */
 
 /* MAIN */
