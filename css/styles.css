@@ -298,7 +298,7 @@ header .nav-item:hover {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
   100% {
-  transform: translateZ(100px);
+  transform: translateY(-20px);
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
   }
 }
@@ -363,6 +363,10 @@ footer .text-shadow-drop-center:hover  {
   }
   #section-5 h3 {
     font-size: 25px;
+  }
+
+  footer img:first-child {
+    width: 30% !important;
   }
 
   }
